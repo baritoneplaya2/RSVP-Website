@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RSVP App</title>
+<!-----FONTS----->
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Belleza" rel="stylesheet">
+<!-----CSS----->
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="banner">
+    <header>
+      <h1>RSVP</h1>
+      <h3>Bryan &amp; Vanessa's Wedding</h3>
+    </header>
+  </div>
+
+  <div class="submit">
+    <form id="registrar">
+      <input type="text" name="name" placeholder="Invite Someone">
+      <button type="submit" name="submit" value="submit">Submit</button>
+    </form>
+  </div>
+		
+    <div class="main">	
+      <h2>Invitees</h2>
+      <p>Please type your name above and hit <em>Submit</em>. Do this for each person attending. If any last minute changes need to be made, please click below the list to email the couple. Thank you, and we can't wait to see you soon!
+        <br>
+        <br>
+        Por favor excriba su nombre arriva y aprete <em>Submit</em>. Haga esto por cada persona invitada que vaya. Si al ultimo minuto necesita hacer cualquier cambio, por favor aprete debajo de la lista para mandarle un correo electronico a la pareja. Gracias, y los vemos pronto!<p>
+      <ul id="invitedList"></ul>	
+    </div>
+  
+  <script type="text/javascript" src="app.js"></script>
+</body>
+<footer>
+  For any questions, concerns, comments, or to change an RSVP, please mail the couple at: <a href="mailto:MrandMrsBravo@usa.com?Subject=RSVP for the Wedding" target="_top">MrandMrsBravo@usa.com</a>
+</footer>
+</html>
